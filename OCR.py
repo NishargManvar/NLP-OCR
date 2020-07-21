@@ -15,7 +15,7 @@ area=0
 max=area
 
 #Opening File for editing
-img = imread('/content/document_basic.png',as_gray=False)
+img = imread('/content/document_basic.png',as_gray=False) #change image adress as needed.
 imggray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #Applying canny to find edges
